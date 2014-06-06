@@ -67,6 +67,10 @@ a {
 	opacity: 0.5;
 }
 
+.twitter-timeline {
+	display: block;
+}
+
 footer {
 	font-family: openlight;
 	text-align: center;
