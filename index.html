@@ -1,34 +1,106 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-<!-- This is where the head begins -->
+<html>
 <head>
-	<meta charset="utf-8" />
-	<title>HongJeon.com - Welcome!</title>
-	<link rel="stylesheet" href="stylesheet.css" />
+	<!-- SEO -->
+	<title>Hi, hey, hello!</title>
+	<meta name="description" content="Hong Jeon personal website.">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- favicon -->
+	<link rel="shortcut icon", href="assets/imgs/favicon.ico", type="image/x-icon">
+    <link rel="icon", href="assets/imgs/favicon.ico", type="image/x-icon">
+
+	<!-- Bootstrap CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="assets/css/stylin.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+	<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
 </head>
 
-<!-- This is where the body begins--> 
 <body>
 
-<h1 class="title">HONG JEON</h1>
+<div id='header'>
+	<div class='container animated fadeIn'>
+		<div class='row' id='header-content'>
+			<div class='col-md-12' id='intro'>
+				<div class='text-center'>
+					<h1>Hi, I'm Hong.</h1>
+					<h2>Full-stack web developer, Android developer, cheese enthusiast.</h2>
+				</div>
+			</div>
+		</div> <!-- header content row -->
+		<div class='row animated bounceInUp'>
+			<div class='col-md-12 text-center' id='social'>
+				<a href="https://github.com/hongj77"><i class="fa fa-github-alt" id='git'></i></a>
+				<a href="https://www.linkedin.com/pub/hong-jeon/58/a13/585"><i class="fa fa-linkedin-square" id='linked'></i></a>
+				<a href="https://twitter.com/hongjjeon"><i class="fa fa-twitter" id='twat'></i></a>
+			</div> 
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- header -->
 
-<p>There's nothing here right now, but Tweet me something.</p>
+<div class='container' id='page-body'>
 
-<a class="twitter-timeline" href="https://twitter.com/hongjjeon" data-widget-id="474756062713630720">Tweets by @hongjjeon</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<!-- page info row -->
+	<div class='row'>
+		<div id='page-info'>
+			<div class='col-md-5 pull-left' id='pic'>
+				<img class='img-circle' src="assets/imgs/andfrew.jpg" alt='Handsome young fellow.' width=350px height=350px>
+			</div> 
+
+			<div class='pull-left col-md-7' id='info-text'>
+				<h2>I study Computer Science and Mathematics at Cornell University.</h2>
+				<p class='lead'>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vehicula tellus, nec lacinia dolor hendrerit et. Fusce hendrerit erat id rutrum aliquet. Ut suscipit erat ac enim lacinia, quis congue erat feugiat. Aliquam erat volutpat. Nulla suscipit ut enim ac rutrum. In sit amet arcu porta, tincidunt nibh a, ornare metus. Vestibulum eu blandit leo. Curabitur sit amet magna enim. <br> <br>
+					Donec eu turpis dui. Cras rutrum quis dolor a fermentum. Mauris non magna sed quam tempor aliquam in vitae dolor. Maecenas ligula ligula,
+				</p>
+			</div>
+		</div>  <!-- page-info -->
+	</div> <!-- page info row -->
+
+	<hr>
 
 
+	<div class='row'>
+		<div class='col-md-12'>
+			
+		</div>
+	</div>
 
-<!-- <a href="http://www.facebook.com/HongJeon" class="mypic-wrapper"><img src="images/hong3.jpeg" class="mypic" title="Go to my Facebook." alt="picture of me." width="500" height="500" /></a> 
--->
+</div> <!-- container -->
 
-<p>No, seriously. Tweet me something.</p>
-
-<!-- This is where the footer begins -->
 <footer>
-<small>&copy Copyright Juice, Inc.</small>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-sm-2'>
+
+			</div>
+
+			<div class='col-sm-4'>
+
+			</div>
+		</div> <!-- row -->
+	</div> <!-- container -->
 </footer>
+
 </body>
+
+<!-- First try for the online version of jQuery-->
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- If no online access, fallback to our hardcoded version of jQuery -->
+<script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="assets/js/scriptin.js"></script>
 </html>

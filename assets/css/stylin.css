@@ -1,0 +1,89 @@
+@font-face {
+	font-family: avantgarde;
+	src: url('../fonts/Avant-Garde-Gothic-Pro-Alt/AvantGardeGothicPro/ITCAvantGardePro-Bk.otf');
+}
+
+/*-------------------------------------------------------------header*/
+#header {
+	width: 100%;
+	height: 350px;
+	background: url("../imgs/topback.jpg") 50% 0px no-repeat fixed;
+	color: white;
+}
+
+#header-content {
+	margin-top: 30px;
+}
+
+#intro {
+	margin-bottom: 20px;
+}
+
+#intro h1 {
+	/*font-family: avantgarde;*/
+	font-size: 64px;
+}
+
+#intro h2 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 30px;
+}
+
+#social {
+	font-size: 65px;
+}
+
+#git, #linked, #twat {
+	color: white;
+	cursor: pointer;
+	transition: color .15s ease-in-out;
+}
+
+#git:hover {
+	color: rgb(50,98,172);
+}
+
+#linked:hover {
+	color: #4875B4;
+}
+
+#twat:hover {
+	color: rgb(75,152,241);
+}
+
+/*---------------------------------------------------------page body */
+#page-info {
+	margin-top: 30px;
+}
+
+#info-text p {
+	font-size: 18px;
+}
+
+#page-body {
+}
+
+/*-------------------------------------------------------------footer*/
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+	height: 200px;
+}
+
+
+/*--------------------------------------------------------media query*/
+
+/*phones */
+@media (max-width: 480px){
+	#intro h1 {
+		font-size: 50px;
+	}
+
+	#header {
+		height: 450px;
+	}
+}

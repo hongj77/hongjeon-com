@@ -1,4 +1,4 @@
 HongJeon.com
 ============
 
-Personal website (AKA html testing)
+Personal website and portfolio.
