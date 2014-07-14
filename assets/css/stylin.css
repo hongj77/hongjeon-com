@@ -20,7 +20,8 @@
 }
 
 #intro h1 {
-	/*font-family: avantgarde;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	font-size: 64px;
 }
 
@@ -62,6 +63,12 @@
 }
 
 #page-body {
+}
+
+.subject h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 50px;
 }
 
 /*-------------------------------------------------------------footer*/
