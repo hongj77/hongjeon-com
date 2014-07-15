@@ -53,13 +53,15 @@
 	<div class='row'>
 		<div id='page-info'>
 			<div class='col-md-5 pull-left' id='pic'>
-				<img id='profile-pic'class='img-circle' src="assets/imgs/andfrew.jpg" alt='Handsome young fellow.' width=350px height=350px>
+				<img id='profile-pic'class='img-responsive img-circle' src="assets/imgs/andfrew.jpg" alt='Handsome young fellow.'>
 			</div> 
 
+
+
 			<div class='pull-left col-md-7' id='info-text'>
-				<h2>I study Computer Science and Mathematics at Cornell University.</h2>
+				<h2></h2>
 				<p class='lead'>
-					Currently in my second year, I've been living by the motto: learn, learn, and learn some more. 
+					I study Computer Science and Mathematics at Cornell University. I've been living by the motto: learn, learn, and learn some more. 
 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vehicula tellus, nec lacinia dolor hendrerit et. Fusce hendrerit erat id rutrum aliquet. Ut suscipit erat ac enim lacinia, quis congue erat feugiat. Aliquam erat volutpat. Nulla suscipit ut enim ac rutrum. In sit amet arcu porta, tincidunt nibh a, ornare metus. <br> <br>
 					Donec eu turpis dui. Cras rutrum quis dolor a fermentum. Mauris non magna sed quam tempor aliquam in vitae dolor. Maecenas ligula ligula,
@@ -68,45 +70,77 @@
 		</div>  <!-- page-info -->
 	</div> <!-- page info row -->
 
-	<hr>
+	<hr class='section-divider'>
 
-	<div class='row'>
-		<div class='col-md-12 text-center subject'>
-			<h1>THIS IS ME</h1>
-			<div class='row'>
-				<div class='col-md-3'>
-					<div>
-						<img id='box1' class='thumbnail' src="http://placehold.it/250x250">
-					</div>
-				</div>
-				<div class='col-md-3'>
-					<div>
-						<img class='thumbnail' src="http://placehold.it/250x250">
-					</div>
-				</div>
-				<div class='col-md-3'>
-					<div>
-						<img class='thumbnail' src="http://placehold.it/250x250">
-					</div>
-				</div>
-				<div class='col-md-3'>
-					<div>
-						<img class='thumbnail' src="http://placehold.it/250x250">
-					</div>
-				</div>
+	<!-------------------------------------------------- page body -->
+
+	<div class='row text-center subject'>
+		<h1>ME THINGS</h1>
+	</div>
+
+
+	<div class='row' id='boxes'>
+		<div class='row' id='top-boxes'>
+			<div class='text-center'>
+				<img id='left-box' src="http://placehold.it/300x250">
+				<img src="http://placehold.it/300x250">
+			</div>
+		</div>
+		
+		<div class='row'>
+			<div class='text-center'>
+				<img id='left-box' src="http://placehold.it/300x250">
+				<img src="http://placehold.it/300x250">
 			</div>
 		</div>
 	</div>
 
-	<hr>
+	<hr class='section-divider'>
 
-	<div class='row'>
-		<div class='col-md-12 text-center subject'>
-			<h1>PROJECTS</h1>
-		</div>
+	<div class='row subject'>
+		<h1 class='text-center'>PROJECTS</h1>
 	</div>
 
-	<hr>
+	<div class='row'>
+		<div class='col-md-7'>
+			<div class='tabbable'>
+				<ul class='nav nav-tabs'>
+					<li class='active'>
+						<a href="#tab1" data-toggle='tab'>Overview</a>
+					</li>
+					<li>
+						<a href="#tab2" data-toggle='tab'>Why</a>
+					</li>
+					<li>
+						<a href="#tab3" data-toggle='tab'>Code</a>
+					</li>
+				</ul>
+				<div class='tab-content'>
+					<div class='tab-pane active' id='tab1'>
+						<h2>Dinger <br>
+						<span class='text-muted'> The artificially intelligent George Ding chatbot.</span>
+						</h2>
+
+						<p>Maecenas vel auctor nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tempor libero neque, vel feugiat velit fermentum ac. Morbi ac dignissim turpis, nec consectetur dolor. Donec sed volutpat nunc.
+						</p>
+					</div>
+					<div class='tab-pane' id='tab2'>
+						idk why.
+					</div>
+					<div class='tab-pane' id='tab3'>
+						<h2>Blow your mind2</h2>
+						Maecenas vel auctor nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tempor libero neque, vel feugiat velit fermentum ac. Morbi ac dignissim turpis, nec consectetur dolor. Donec sed volutpat nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis mauris vel tellus tincidunt vulputate. Aliquam erat volutpat. Fusce nec lorem quis elit suscipit rutrum quis id leo. Nullam aliquam nunc a interdum vulputate. Proin enim nisi, elementum non gravida quis, rutrum in orci. Cras magna quam, ornare vitae varius quis, rhoncus non ipsum. Proin dolor justo, feugiat auctor elit in, feugiat iaculis est. Donec lacinia turpis ut massa scelerisque, in gravida mi venenatis. Vestibulum libero turpis, congue sed lorem vel, suscipit iaculis odio.
+					</div>
+				</div> <!-- tab content -->
+			</div> <!-- tabbable -->
+		</div> <!-- col-6 -->
+		<div class='col-md-5'>
+			<img class='img-responsive' src="http://placehold.it/405x350">
+		</div>
+	</div> <!-- row -->
+
+
+	<hr class='section-divider'>
 
 	<div class='row'>
 		<div class='col-md-12 text-center subject'>
@@ -114,18 +148,14 @@
 		</div>
 	</div>
 
-	<hr>
-
-	<div class='row'>
-		<div class='col-md-12 text-center subject'>
-			<h1>SAY HELLO</h1>
-		</div>
-	</div>
 
 </div> <!-- container -->
 
 <footer>
 	<div class='container'>
+		<div class='row text-center'>
+			<p>"There is no failure, only feedback."</p>
+		</div>
 		<div class='row'>
 			<div class='col-sm-2'>
 

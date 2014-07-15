@@ -20,7 +20,6 @@
 }
 
 #intro h1 {
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 64px;
 }
@@ -29,6 +28,10 @@
 	font-family: 'Open Sans';
 	font-weight: 300;
 	font-size: 30px;
+}
+
+#info-text p {
+	color:rgb(90,90,90);
 }
 
 #social {
@@ -54,6 +57,10 @@
 }
 
 /*---------------------------------------------------------page body */
+.subject h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 #page-info {
 	margin-top: 30px;
 }
@@ -70,6 +77,43 @@
 	font-weight: 700;
 	font-size: 50px;
 }
+
+#boxes {
+	margin-bottom: 10px;
+}
+
+#top-boxes {
+	margin-bottom: 10px;
+}
+
+#left-box {
+	margin-right: 8px;
+}
+
+.tab-pane h2 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgb(90,90,90);
+}
+
+h2 .text-muted {
+	font-size: 40px;
+}
+
+.tab-pane p {
+	font-size: 18px;
+	color: rgb(90,90,90);
+	font-weight: 300;
+}
+
+/*--------------------------------------------------------------misc*/
+
+.section-divider {
+	margin-top: 40px;
+}
+
+
 
 /*-------------------------------------------------------------footer*/
 
