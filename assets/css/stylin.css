@@ -1,8 +1,3 @@
-@font-face {
-	font-family: avantgarde;
-	src: url('../fonts/Avant-Garde-Gothic-Pro-Alt/AvantGardeGothicPro/ITCAvantGardePro-Bk.otf');
-}
-
 /*-------------------------------------------------------------header*/
 #header {
 	width: 100%;
@@ -25,7 +20,7 @@
 }
 
 #intro h2 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 30px;
 }
@@ -54,7 +49,7 @@
 
 /*---------------------------------------------------------page body */
 
-/*--------------------------------------------------------------misc*/
+/*-------------------------------------------------misc*/
 
 .section-divider {
 	margin-top: 40px;
@@ -68,25 +63,81 @@
 	margin-bottom: 60px;
 }
 
-/*------------------------------------------------------------about */
+/*-------------------------------------------------about */
 #page-info {
 	margin-top: 30px;
 }
 
-#info-text h2 {
+#info-text {
 	color: rgb(90,90,90);
 }
 
 #info-text p {
-	color:rgb(90,90,90);
 	font-size: 18px;
+}
+
+/*---------------------------------------------me things*/
+
+#me-things {
+	color: white;
+}
+
+#me-things a {
+	color: white;
+	text-decoration: none;
 }
 
 #me-1, #me-2, #me-3, #me-4 {
 	visibility: hidden;
+	position: relative;
+
 }
 
-/*-----------------------------------------------------------projects*/
+#pic {
+	margin-top: 70px;
+}
+
+#me-1-head, #me-2-head, #me-3-head {
+	visibility: hidden;
+	font-size: 22px;
+	z-index: 100;
+	position: relative;
+	padding-left:10px;
+	padding-right: 10px;
+	top: -210px;
+}
+
+
+#me-1-text, #me-2-text, #me-3-text {
+	visibility: hidden;
+	font-size: 16px;
+	z-index: 100;
+	position: relative;
+	padding-left:15px;
+	padding-right: 15px;
+	top: -200px;
+	margin-bottom: -200px;
+}
+
+#me-1-dark, #me-2-dark, #me-3-dark {
+	visibility: hidden;
+	z-index: 50;
+	top: -210px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+	height: 220px;
+	margin-bottom: -200px;
+}
+
+#me-2-dark {
+	top: -187px;
+}
+
+/*------------------------------------------------projects*/
+
+#project-section {
+	visibility: visible;
+}
 
 .project {
 	margin-bottom: 50px;
@@ -132,4 +183,9 @@ footer {
 	#header {
 		height: 450px;
 	}
+
+	#me-1, #me-2, #me-3, #me-4 {
+		margin-bottom: 10px;
+	}
+
 }
