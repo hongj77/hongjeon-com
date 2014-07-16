@@ -10,12 +10,21 @@ $(function() {
 		var scrollTop = $window.scrollTop();
 
 		console.log(scrollTop);
-		// if (scrollTop*0.5 < 250) {
-		// 	$('#box1').css({height: scrollTop*0.5, width: scrollTop*0.5});
-		// }
+		if (scrollTop > 690) {
+			makeIdAppear('#me-1');
+		}
+		if (scrollTop > 750) {
+			makeIdAppear('#me-2');
+		}
+		if (scrollTop > 800) {
+			makeIdAppear('#me-3');
+		}
 
-		
-		
 	});
 
 }); //on load 
+
+function makeIdAppear (id) {
+	$(id).css('visibility', 'visible');
+	$(id).addClass("animated fadeIn");
+}
