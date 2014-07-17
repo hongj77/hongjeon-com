@@ -2,7 +2,7 @@
 #header {
 	width: 100%;
 	height: 350px;
-	background: url("../imgs/topback.jpg") 50% 0px no-repeat fixed;
+	background: url("../imgs/replace.jpg") 50% 0px no-repeat fixed;
 	color: white;
 }
 
@@ -56,10 +56,17 @@
 }
 
 .subject h1 {
+	/*color: #0066CC;*/
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 50px;
 	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.subhead {
+	font-size: 23px;
+	margin-top: 0;
 	margin-bottom: 60px;
 }
 
@@ -68,9 +75,6 @@
 	margin-top: 30px;
 }
 
-#info-text {
-	color: rgb(90,90,90);
-}
 
 #info-text p {
 	font-size: 18px;
@@ -101,10 +105,10 @@
 	visibility: hidden;
 	font-size: 22px;
 	z-index: 100;
-	position: relative;
-	padding-left:10px;
+	position: absolute;
+	padding-left:15px;
 	padding-right: 10px;
-	top: -210px;
+	top: 0;
 }
 
 
@@ -112,25 +116,19 @@
 	visibility: hidden;
 	font-size: 16px;
 	z-index: 100;
-	position: relative;
+	position: absolute;
 	padding-left:15px;
-	padding-right: 15px;
-	top: -200px;
-	margin-bottom: -200px;
+	padding-right: 20px;
+	top: 80px;
 }
 
 #me-1-dark, #me-2-dark, #me-3-dark {
 	visibility: hidden;
 	z-index: 50;
-	top: -210px;
-	position: relative;
+	position: absolute;
 	background: rgba(0,0,0,0.5);
-	height: 220px;
-	margin-bottom: -200px;
-}
-
-#me-2-dark {
-	top: -187px;
+	height: 100%;
+	top: 0px;
 }
 
 /*------------------------------------------------projects*/
@@ -160,6 +158,16 @@ h2 .text-muted {
 	font-weight: 300;
 }
 
+.tab-pane .text-muted {
+	font-size: 30px;
+}
+
+/*-------------books*/
+
+.books {
+	margin-bottom: 30px;
+}
+
 
 /*-------------------------------------------------------------footer*/
 
@@ -174,6 +182,13 @@ footer {
 
 /*--------------------------------------------------------media query*/
 
+
+@media (max-width: 840px) {
+	#pic {
+		text-align: center;
+	}	
+}
+
 /*phones */
 @media (max-width: 480px){
 	#intro h1 {
@@ -181,7 +196,7 @@ footer {
 	}
 
 	#header {
-		height: 450px;
+		height: 400px;
 	}
 
 	#me-1, #me-2, #me-3, #me-4 {
@@ -189,3 +204,4 @@ footer {
 	}
 
 }
+

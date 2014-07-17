@@ -13,9 +13,9 @@ $(function() {
 			makeIdDissapear('#me-2');
 			makeIdDissapear('#me-3');
 		}
-		// if (scrollTop < 550) {
-		// 	makeIdDissapear('#project-section');
-		// }
+		if (scrollTop < 550) {
+			makeIdDissapear('#project-section');
+		}
 		if (scrollTop > 690) {
 			makeIdAppear('#me-1');
 		}
@@ -26,9 +26,9 @@ $(function() {
 			makeIdAppear('#me-3');
 		}
 
-		// if (scrollTop > 1250) {
-		// 	makeIdAppear('#project-section');
-		// }
+		if (scrollTop > 1150) {
+			makeIdAppear('#project-section');
+		}
 	});
 
 	//hover responsive
@@ -42,9 +42,13 @@ function faded (id) {
 	var idHead = id + '-head';
 	var idText = id + '-text';
 	var idDark = id + '-dark';
+	var idPic = id + '-pic';
 
 	$(id).mouseenter(function() {
+		var imgWidth = $(idPic).width();
+		console.log(imgWidth);
 		$(idDark).css('visibility', 'visible');
+		$(idDark).css('width', imgWidth + 'px');
 		$(idHead).css('visibility', 'visible');
 		$(idHead).removeClass('fadeOut');
 		$(idHead).addClass('animated fadeIn');
