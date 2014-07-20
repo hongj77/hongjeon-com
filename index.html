@@ -21,58 +21,76 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
 
 	<!-- fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Montserrat:400,700|Lobster' rel='stylesheet' type='text/css'>
 
 
 </head>
 
 <body>
 
-<div id='header'>
-	<div class='container animated fadeIn'>
-		<div class='row' id='header-content'>
-			<div class='col-md-12' id='intro'>
-				<div class='text-center'>
-					<h1>Hi, I'm Hong.</h1>
-					<h2>Full-stack web developer, Android developer, cheese enthusiast.</h2>
-				</div>
+<div class='container'>
+ 	<!-- intro row -->
+	<div class='row'>
+		<div class='col-xs-12 text-center' id='title'>
+			<h1>Hong Jeon.</h1>
+		</div>
+		<div class='col-xs-12 text-center' id='sub-title'>
+			<h2>Full-stack web developer, Android developer, cheese enthusiast.</h2>
+		</div>
+		<div class='col-xs-12' id='bar'>
+		</div>
+	</div>
+
+	<div class='row triangles'>
+		<div class='col-xs-12'>
+			<div id='left-square'>
 			</div>
-		</div> <!-- header content row -->
-		<div class='row animated bounceInUp'>
-			<div class='col-md-12 text-center' id='social'>
-				<a href="https://github.com/hongj77"><i class="fa fa-github-alt" id='git'></i></a>
-				<a href="https://www.linkedin.com/pub/hong-jeon/58/a13/585"><i class="fa fa-linkedin-square" id='linked'></i></a>
-				<a href="https://twitter.com/hongjjeon"><i class="fa fa-twitter" id='twat'></i></a>
-			</div> 
-		</div> <!-- row -->
-	</div> <!-- container -->
-</div> <!-- header -->
+			<div id='left-triangle'>
+			</div>
+			<div id='right-triangle'>
+			</div>
+			<div id='right-square'>
+			</div>
+		</div>
+	</div>
+</div>
 
 <div class='container' id='page-body'>
-
 	<!-- page info row -->
 	<div class='row'>
 		<div id='page-info'>
 			<div class='col-sm-5 col-xs-12' id='pic'>
-				<img id='profile-pic'class='img-responsive img-circle' src="assets/imgs/andfrew.jpg" alt='Handsome young fellow.'>
+				<img id='profile-pic' class='img-responsive img-circle center-block' src="assets/imgs/andfrew.jpg" alt='me.'>
 			</div> 
 
 			<div class='pull-left col-sm-7' id='info-text'>
-				<h2>I study Computer Science and Mathematics at Cornell University..</h2>
-				<p class='lead'>
-					Currently just finishing my first year, I have been living by the motto: learn, learn, and learn some more. Viewing every opportunity as a learning opportunity has helped my mind sprout in all directions and discipline. I always try to intake new information without any bias and without any filters. This philosophy has had a tremendous positive effect on the way I live life; I am always eager to learn something new. Teach me something!
-					<br><br>
-					 Ultimately, I am interested in pursing a career path that involves machine learning, artificial intelligence, robotics, and entrepreneurship.
-
-					<br> <br>
-					When I am not performing computer magic, I am a strong advocate for Starcraft 2, Eminem, dysfunctional pickup basketball games, barefoot ultimate frisbee, and the TV show Legend of Korra.
-
+				<h2>Hi. I study Computer Science and Mathematics at Cornell University.</h2>
+				<p>
+					I'm excited to learn about pretty much anything. I've dabbled in robotics simulation, image processing, data visualization, and textual pattern matching.
 				</p>
+				<p>
+					Ultimately, I am interested in pursing a career path that involves machine learning, artificial intelligence, and entrepreneurship.
+				</p>
+				<p>
+					When I am not performing computer magic, I am a strong advocate for Starcraft 2, Eminem, dysfunctional pickup basketball games, barefoot ultimate frisbee, and the podcast <i>JavaScript Jabber.</i>
+				</p>
+				<!-- 
+					I have been living by the motto: learn, learn, and learn some more. Viewing every opportunity as a learning opportunity has helped my mind sprout in all directions and discipline. I always try to intake new information without any bias and without any filters. This philosophy has had a tremendous positive effect on the way I live life; I am always eager to learn something new. Teach me something!
+				<br><br> -->
+				<div class='col-md-12' id='social'>
+					<div class='pull-left'>
+						<a href="https://github.com/hongj77"><i class="fa fa-github-alt" id='git'></i></a>
+						<a href="https://www.linkedin.com/pub/hong-jeon/58/a13/585"><i class="fa fa-linkedin-square" id='linked'></i></a>
+						<a href="https://twitter.com/hongjjeon"><i class="fa fa-twitter" id='twat'></i></a>
+					</div>
+				</div> 
 			</div>
 		</div>  <!-- page-info -->
 	</div> <!-- page info row -->
 
 	<!-------------------------------------------------- page body -->
+
+	<!-- <hr class='section-divider'>
 
 	<div class='row text-center subject'>
 		<h1>ME THINGS</h1>
@@ -112,330 +130,21 @@
 		</div>
 	</div>
 
+	<hr class='section-divider'> -->
 	<hr class='section-divider'>
 
-	<div class='row subject text-center'>
-		<h1>PROJECTS</h1>
-		<h2 class='text-muted subhead'>LOOK WHAT I CAN DO!</h2>
+	<!-- <div class='row subject text-center'>
+
+		<h1>Things I've made</h1>
+		<h2 class='text-muted subhead'> (non-exhaustive list of)</h2> -->
+
 	</div>
-
-	<div id='project-section'>
-
-		<!-- obama or not -->
-		<div class='row project'>
-			<div class='col-md-7'>
-				<div class='tabbable'>
-					<ul class='nav nav-tabs'>
-						<li class='active'>
-							<a href="#cv-1" data-toggle='tab'>Overview</a>
-						</li>
-						<li>
-							<a href="#cv-2" data-toggle='tab'>Why</a>
-						</li>
-						<li>
-							<a href="#cv-3" data-toggle='tab'>Code</a>
-						</li>
-					</ul>
-					<div class='tab-content'>
-						<div class='tab-pane active' id='cv-1'>
-							<h2>HawkEye<br>
-							<span class='text-muted'>Image processing application that learns the faces you've shown it previously.</span>
-							</h2>
-
-							<p>Maecenas vel auctor nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tempor libero neque, vel feugiat velit fermentum ac. Morbi ac dignissim turpis, nec consectetur dolor. Donec sed volutpat nunc.
-							</p>
-						</div>
-						<div class='tab-pane' id='cv-2'>
-							<p>
-								Whatever lomo slow-carb sartorial normcore Odd Future. Cliche chambray viral, chillwave iPhone qui Neutra synth. Lo-fi Helvetica mlkshk, eu before they sold out you probably haven't heard of them master cleanse odio qui irure. Gastropub ex deserunt, hashtag XOXO retro keytar fashion axe esse sed gentrify. Ad ugh irony Banksy exercitation. Actually non cupidatat squid, kale chips vegan assumenda letterpress asymmetrical PBR Etsy flexitarian four loko sunt. Direct trade squid biodiesel odio.
-							</p>
-						</div>
-						<div class='tab-pane' id='cv-3'>
-							<p>Maecenas vel auctor nulla.</p>
-						</div>
-					</div> <!-- tab content -->
-					
-				</div> <!-- tabbable -->
-			</div> <!-- col-6 -->
-			<div class='col-md-5'>
-				<img class='img-responsive' src="assets/imgs/replace2.jpg">
-			</div>
-		</div> <!-- obama or not row -->
-
-		<div class='row project'>
-			<div class='col-md-7'>
-				<div class='tabbable'>
-					<ul class='nav nav-tabs'>
-						<li class='active'>
-							<a href="#data-1" data-toggle='tab'>Overview</a>
-						</li>
-						<li>
-							<a href="#data-2" data-toggle='tab'>Why</a>
-						</li>
-						<li>
-							<a href="#data-3" data-toggle='tab'>Code</a>
-						</li>
-					</ul>
-					<div class='tab-content'>
-						<div class='tab-pane active' id='data-1'>
-							<h2>Data Analysis App<br>
-							<span class='text-muted'> The data visualazation application for Plow Technology's Onping 2.0 software.</span>
-							</h2>
-							<p>Maecenas vel auctor nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tempor libero neque, vel feugiat velit fermentum ac. Morbi ac dignissim turpis, nec consectetur dolor. Donec sed volutpat nunc.
-							</p>
-
-						</div>
-						<div class='tab-pane' id='data-2'>
-							<p>
-								Literally artisan try-hard cillum ugh officia distillery assumenda, locavore Tumblr cornhole selvage. High Life nesciunt Blue Bottle, sartorial aliqua Godard YOLO. Velit Tumblr chillwave ex, mlkshk tote bag before they sold out DIY meggings Tonx craft beer. 8-bit consequat ad, sustainable eu fashion axe sed consectetur Brooklyn duis incididunt cardigan craft beer wayfarers single-origin coffee. Kickstarter ea sartorial shabby chic banjo, polaroid quis proident aute pork belly esse. Blog stumptown fap, American Apparel placeat cardigan Tumblr wayfarers fanny pack deep v occaecat master cleanse bitters hella. Kogi scenester High Life mustache Tonx Pinterest.
-							</p>
-						</div>
-						<div class='tab-pane' id='data-3'>
-							<p>sa lkjasdl;asj dal;sdj als;dj 
-							</p>
-						</div>
-					</div> <!-- tab content -->
-
-				</div> <!-- tabbable -->
-			</div> <!-- col-6 -->
-			<div class='col-md-5'>
-				<img class='img-responsive' src="assets/imgs/replace2.jpg">
-			</div>
-		</div> <!-- data analysis row -->
-
-		<div class='row project'>
-			<div class='col-md-7'>
-				<div class='tabbable'>
-					<ul class='nav nav-tabs'>
-						<li class='active'>
-							<a href="#ding-1" data-toggle='tab'>Overview</a>
-						</li>
-						<li>
-							<a href="#ding-2" data-toggle='tab'>Why</a>
-						</li>
-						<li>
-							<a href="#ding-3" data-toggle='tab'>Code</a>
-						</li>
-					</ul>
-					<div class='tab-content'>
-						<div class='tab-pane active' id='ding-1'>
-							<h2>Dinger<br>
-							<span class='text-muted'> The artificially intelligent George Ding chatbot. </span>
-							</h2>
-							<p>Maecenas vel auctor nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tempor libero neque, vel feugiat velit fermentum ac. Morbi ac dignissim turpis, nec consectetur dolor. Donec sed volutpat nunc.
-							</p>
-
-						</div>
-						<div class='tab-pane' id='ding-2'>
-							<p>
-								Schlitz cred tote bag artisan Shoreditch, normcore VHS Etsy deserunt food truck occupy letterpress placeat eiusmod. Polaroid meh adipisicing meggings, officia slow-carb Carles yr. Freegan you probably haven't heard of them skateboard, put a bird on it small batch vero blog slow-carb cray sartorial ullamco assumenda. Pitchfork pour-over nulla street art delectus leggings consequat, beard blog PBR&B. Wes Anderson Bushwick yr, Etsy jean shorts duis kitsch. Wolf Shoreditch retro, trust fund Vice duis cliche cray farm-to-table YOLO Tumblr aesthetic nulla. Williamsburg laborum vegan fanny pack church-key Brooklyn.
-							</p>
-						</div>
-						<div class='tab-pane' id='ding-3'>
-							<p>Code can be found on Gl;kadjsfl;dsfjS
-							</p>
-						</div>
-					</div> <!-- tab content -->
-
-				</div> <!-- tabbable -->
-			</div> <!-- col-6 -->
-			<div class='col-md-5'>
-				<img class='img-responsive' src="assets/imgs/replace2.jpg">
-			</div>
-		</div> <!-- dinger row -->
-
-		<div class='row project'>
-			<div class='col-md-7'>
-				<div class='tabbable'>
-					<ul class='nav nav-tabs'>
-						<li class='active'>
-							<a href="#red-1" data-toggle='tab'>Overview</a>
-						</li>
-						<li>
-							<a href="#red-2" data-toggle='tab'>Why</a>
-						</li>
-						<li>
-							<a href="#red-3" data-toggle='tab'>Code</a>
-						</li>
-					</ul>
-					<div class='tab-content'>
-						<div class='tab-pane active' id='red-1'>
-							<h2>Big Red Hacks Site <br>
-							<span class='text-muted'>Official website for the Cornell's student-run hackathon.</span>
-							</h2>
-
-							<p>This is the my very first attempt at making a website. Code can be quite messy to read because some elements, such as the responsive navbar, were made from scratch. It was a tremedous learning experience that let me learn HTML and CSS in a short period of time.
-							</p>
-						</div>
-						<div class='tab-pane' id='red-2'>
-							<p>
-								A friend living on my floor co-founded the Big Red Hacks event. At the time, I was reading about making websites, so I immediately jumped at the opportunity to put my book-knowledge to application. I knew absolutely zero things about web development (sorry, Junia), and went on my merry way to work on this project. This was just the sort of head-first charge into unfamiliar territory I needed to jumpstart my HTML/CSS experience.
-							</p>
-						</div>
-						<div class='tab-pane' id='red-3'>
-							<p>All code can be found on Github: <a href="https://github.com/hongj77/bigredhacks-com">here</a></p>
-							
-						</div>
-					</div> <!-- tab content -->
-					
-				</div> <!-- tabbable -->
-			</div> <!-- col-6 -->
-			<div class='col-md-5'>
-				<img class='img-responsive' src="assets/imgs/replace2.jpg">
-			</div>
-		</div> <!-- big red hacks row -->
-
-
-		<div class='row project'>
-			<div class='col-md-7'>
-				<div class='tabbable'>
-					<ul class='nav nav-tabs'>
-						<li class='active'>
-							<a href="#seed-1" data-toggle='tab'>Overview</a>
-						</li>
-						<li>
-							<a href="#seed-2" data-toggle='tab'>Why</a>
-						</li>
-						<li>
-							<a href="#seed-3" data-toggle='tab'>Code</a>
-						</li>
-					</ul>
-					<div class='tab-content'>
-						<div class='tab-pane active' id='seed-1'>
-							<h2>The Seed<br>
-							<span class='text-muted'>
-								A satire news website for Norman, Oklahoma and the University of Oklahoma.
-							</span>
-							</h2>
-
-							<p>Maecenas vel auctor nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tempor libero neque, vel feugiat velit fermentum ac. Morbi ac dignissim turpis, nec consectetur dolor. Donec sed volutpat nunc.
-							</p>
-						</div>
-						<div class='tab-pane' id='seed-2'>
-							<p>
-								Portland iPhone aute crucifix. Pickled shabby chic kitsch selfies Godard mumblecore fingerstache, umami you probably haven't heard of them synth. Gluten-free chillwave disrupt literally Tumblr, ex twee craft beer pickled minim kogi put a bird on it Shoreditch vinyl Pitchfork. Banh mi delectus Pinterest kale chips, fashion axe McSweeney's Schlitz ad seitan irure Banksy tofu synth. Chillwave Pitchfork small batch craft beer wolf Echo Park, Shoreditch drinking vinegar try-hard mumblecore vegan ea. Locavore jean shorts next level chia eu. Fashion axe sunt farm-to-table delectus readymade irony.
-							</p>
-						</div>
-						<div class='tab-pane' id='seed-3'>
-							<p>asjdasl;dkjasdaskl;dajsdl;js
-							</p>
-						</div>
-					</div> <!-- tab content -->
-					
-				</div> <!-- tabbable -->
-			</div> <!-- col-6 -->
-			<div class='col-md-5'>
-				<img class='img-responsive' src="assets/imgs/replace2.jpg">
-			</div>
-		</div> <!-- the seed row -->
-
-		<div class='row project'>
-			<div class='col-md-7'>
-				<div class='tabbable'>
-					<ul class='nav nav-tabs'>
-						<li class='active'>
-							<a href="#ros-1" data-toggle='tab'>Overview</a>
-						</li>
-						<li>
-							<a href="#ros-2" data-toggle='tab'>Why</a>
-						</li>
-						<li>
-							<a href="#ros-3" data-toggle='tab'>Code</a>
-						</li>
-					</ul>
-					<div class='tab-content'>
-						<div class='tab-pane active' id='ros-1'>
-							<h2>Robot Simulation<br>
-							<span class='text-muted'> Experiementation with Gazebo Robot Simulator working with Robot Operating System.</span>
-							</h2>
-							<p>Maecenas vel auctor nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tempor libero neque, vel feugiat velit fermentum ac. Morbi ac dignissim turpis, nec consectetur dolor. Donec sed volutpat nunc.
-							</p>
-
-						</div>
-						<div class='tab-pane' id='ros-2'>
-							<p>
-								Portland iPhone aute crucifix. Pickled shabby chic kitsch selfies Godard mumblecore fingerstache, umami you probably haven't heard of them synth. Gluten-free chillwave disrupt literally Tumblr, ex twee craft beer pickled minim kogi put a bird on it Shoreditch vinyl Pitchfork. Banh mi delectus Pinterest kale chips, fashion axe McSweeney's Schlitz ad seitan irure Banksy tofu synth. Chillwave Pitchfork small batch craft beer wolf Echo Park, Shoreditch drinking vinegar try-hard mumblecore vegan ea. Locavore jean shorts next level chia eu. Fashion axe sunt farm-to-table delectus readymade irony.
-							</p>
-						</div>
-						<div class='tab-pane' id='ros-3'>
-							<p>asldkjasldkjaskldjaslkdjaslkdj
-							</p>
-						</div>
-					</div> <!-- tab content -->
-
-				</div> <!-- tabbable -->
-			</div> <!-- col-6 -->
-			<div class='col-md-5'>
-				<img class='img-responsive' src="assets/imgs/replace2.jpg">
-			</div>
-		</div> <!-- robot simulation row -->
-
-	</div> <!-- project-section div -->
-
-
-	<hr class='section-divider'>
-
-	<div class='row'>
-		<div class='row text-center subject'>
-			<h1>FAVORITE READS</h1>
-			<h2 class='text-muted subhead'>10/10 WOULD READ AGAIN.</h2>
-		</div>
-
-			<div class='books row'>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/algo.jpg" data-lightbox="book" data-title="Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne">
-						<img src="assets/imgs/algo.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/algo2.jpg" data-lightbox="book" data-title="Nine Algorithms That Changed the Future: The Ingenious Ideas That Drive Today's Computers by John MacCormick">
-						<img src="assets/imgs/algo2.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/nail.jpg" data-lightbox="book" data-title="Nail It then Scale It: The Entrepreneur's Guide to Creating and Managing Breakthrough Innovation by Nathan Furr, Paul Ahlstrom">
-						<img src="assets/imgs/nail.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/habits.jpg" data-lightbox="book" data-title="The Seven Habits of Highly Effective People by Stephen R. Covey">
-						<img src="assets/imgs/habits.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-			</div> <!-- book row 1 -->
-
-			<div class='row'>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/google.jpg" data-lightbox="book" data-title="The Google Story by David A. Vise">
-						<img src="assets/imgs/google.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/iwoz.jpg" data-lightbox="book" data-title="iWoz: Computer Geek to Cult Icon: How I Invented the Personal Computer, Co-Founded Apple, and Had Fun Doing It by Steve Wozniak">
-						<img src="assets/imgs/iwoz.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/think.jpg" data-lightbox="book" data-title="Think and Grow Rich by Napoleon Hill">
-						<img src="assets/imgs/think.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-				<div class='col-xs-3'>
-					<a href="assets/imgs/power.jpg" data-lightbox="book" data-title="Secrets of Power Negotiating, 15th Anniversary Edition: Inside Secrets from a Master Negotiator by Roger Dawson">
-						<img src="assets/imgs/power.jpg" class='thumbnail' height='290' width='200'>
-					</a>
-				</div>
-			</div> <!-- book row 2 -->
-	</div>
-
-	<hr class='section-divider'>
-
 </div> <!-- container -->
 
 <footer>
 	<div class='container'>
 		<div class='row text-center'>
-			<p>Footer things go here.</p>
+			<p>&copy 2014 Hong Jeon.</p>
 			<!-- <p>"There is no failure, only feedback."</p> -->
 		</div>
 		<div class='row'>

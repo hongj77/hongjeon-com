@@ -8,33 +8,33 @@ $(function() {
 
 		console.log(scrollTop);
 
-		if (scrollTop < 420) {
-			makeIdDissapear('#me-1');
-			makeIdDissapear('#me-2');
-			makeIdDissapear('#me-3');
-		}
-		if (scrollTop < 550) {
-			makeIdDissapear('#project-section');
-		}
-		if (scrollTop > 690) {
-			makeIdAppear('#me-1');
-		}
-		if (scrollTop > 750) {
-			makeIdAppear('#me-2');
-		}
-		if (scrollTop > 800) {
-			makeIdAppear('#me-3');
-		}
+	// 	if (scrollTop < 420) {
+	// 		makeIdDissapear('#me-1');
+	// 		makeIdDissapear('#me-2');
+	// 		makeIdDissapear('#me-3');
+	// 	}
+	// 	if (scrollTop < 550) {
+	// 		makeIdDissapear('#project-section');
+	// 	}
+	// 	if (scrollTop > 690) {
+	// 		makeIdAppear('#me-1');
+	// 	}
+	// 	if (scrollTop > 750) {
+	// 		makeIdAppear('#me-2');
+	// 	}
+	// 	if (scrollTop > 800) {
+	// 		makeIdAppear('#me-3');
+	// 	}
 
-		if (scrollTop > 1150) {
-			makeIdAppear('#project-section');
-		}
-	});
+	// 	if (scrollTop > 1150) {
+	// 		makeIdAppear('#project-section');
+	// 	}
+	// });
 
-	//hover responsive
-	faded('#me-1');
-	faded('#me-2');
-	faded('#me-3');
+	// //hover responsive
+	// faded('#me-1');
+	// faded('#me-2');
+	// faded('#me-3');
 
 }); //on load 
 

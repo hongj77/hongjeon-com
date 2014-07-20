@@ -1,55 +1,105 @@
 /*-------------------------------------------------------------header*/
-#header {
-	width: 100%;
-	height: 350px;
-	background: url("../imgs/replace.jpg") 50% 0px no-repeat fixed;
-	color: white;
+
+/*new*/
+#title h1{
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
 }
 
-#header-content {
-	margin-top: 30px;
-}
-
-#intro {
+#sub-title h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
 	margin-bottom: 20px;
 }
 
-#intro h1 {
-	font-weight: 700;
-	font-size: 64px;
+#bar {
+	background-color: #1b476d;
+	height: 30px;
 }
 
-#intro h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 30px;
+.triangles {
+	position: relative;
 }
+
+#left-triangle {
+	position: absolute;
+	left: -20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 20px 0;
+	border-color: transparent #172a3a transparent transparent;
+}
+
+#right-triangle {
+	position: absolute;
+	right:-20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 20px 0 0;
+	border-color: #172a3a transparent transparent transparent;
+}
+
+#left-square {
+	position: absolute;
+	left:-20px;
+	top: -30px;
+	background-color: #1b476d;
+	width: 20px;
+	height: 30px;
+}
+
+#right-square {
+	position: absolute;
+	right:-20px;
+	top: -30px;
+	background-color: #1b476d;
+	width: 20px;
+	height: 30px;
+}
+
 
 #social {
-	font-size: 65px;
+	font-size: 50px;
 }
 
 #git, #linked, #twat {
-	color: white;
+	color: grey;
 	cursor: pointer;
-	transition: color .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
 }
 
-#git:hover {
+
+#git {
 	color: rgb(50,98,172);
 }
 
-#linked:hover {
+#git:hover {
+	opacity: 0.5;
+}
+
+#linked {
 	color: #4875B4;
+}
+#linked:hover {
+	opacity: 0.5;
+}
+
+#twat {
+	color: rgb(75,152,241);
 }
 
 #twat:hover {
-	color: rgb(75,152,241);
+	opacity: 0.5;
 }
 
 /*---------------------------------------------------------page body */
 
 /*-------------------------------------------------misc*/
+#page-body {
+	box-shadow: 0px 0 20px rgba(0,0,0,0.3);
+}
 
 .section-divider {
 	margin-top: 40px;
@@ -57,9 +107,11 @@
 
 .subject h1 {
 	/*color: #0066CC;*/
-	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*font-family: 'Open Sans'*/
+
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 45px;
 	margin-top: 30px;
 	margin-bottom: 0;
 }
@@ -75,10 +127,19 @@
 	margin-top: 30px;
 }
 
+#info-text h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+}
+
 
 #info-text p {
+	color: rgb(75,75,75);
 	font-size: 18px;
+	font-weight: 300;
 }
+
 
 /*---------------------------------------------me things*/
 
@@ -97,9 +158,6 @@
 
 }
 
-#pic {
-	margin-top: 70px;
-}
 
 #me-1-head, #me-2-head, #me-3-head {
 	visibility: hidden;
@@ -176,7 +234,7 @@ footer {
 	color: #eee;
 	font-size: 11px;
 	padding: 20px;
-	height: 200px;
+/*	height: 200px;*/
 }
 
 
@@ -187,21 +245,16 @@ footer {
 	#pic {
 		text-align: center;
 	}	
+	
+	#right-triangle, #right-square{
+		display: none;
+	}
 }
 
 /*phones */
 @media (max-width: 480px){
-	#intro h1 {
-		font-size: 50px;
+	#title h1 {
+		font-size: 70px;
 	}
-
-	#header {
-		height: 400px;
-	}
-
-	#me-1, #me-2, #me-3, #me-4 {
-		margin-bottom: 10px;
-	}
-
 }
 
