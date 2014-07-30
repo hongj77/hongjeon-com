@@ -128,13 +128,14 @@
 }
 
 #info-text h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 28px;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 600;
+	font-size: 28px;
 }
 
 
 #info-text p {
+	/*font-family: 'Open Sans', sans-serif;*/
 	color: rgb(75,75,75);
 	font-size: 18px;
 	font-weight: 300;
